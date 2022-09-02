@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gilroy", "Arial", sans-serif;
+}
+
+/*HOMEPAGE*/
+.container{
+	border: 1px solid black;
+	position: absolute;
+	height: 750px;
+	width: 1262px;
+}
+
+.navbar{
+	/*border: 1px solid black;*/
+	height: 80px;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	font-size: 11px;
+	font-weight: bolder;
+}
+
+.navbar .logo{
+	/*border: 1px solid black;*/
+	height: 70px;
+	position: relative;
+	left: 20px;
+	top: 5px;
+	color: #1D9782;
+}	
+
+.navbar .call{
+	position: relative;
+	top: 50px;
+}
+
+.navbar .call i{
+	color: #125C50;
+}
+
+.navbar .call a{
+	color: #1D9782;
+	text-decoration: none;
+}
+
+.navbar .menu{
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+.navbar .menu li{
+	display: inline-flex;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.navbar .menu li a{
+	text-decoration: none;
+	color: #1D9782;
+}
+
+.navbar .menu li span a{
+	border-bottom: 3px solid #125C50;
+}
+
+.price{
+	/*border: 1px solid black;*/
+	height: 70px;
+	background-color: #125C50;
+	text-align: center;
+}
+
+.price p{
+	padding-top: 25px;
+	color: white;
+}
+
+.price b{
+	padding-right: 10px;
+}
+
+.space{
+	height: 3px;
+	background-color: #c4c4c4;
+}
+
+.banner{
+	/*border: 1px solid black;*/
+	height: 350px;
+	background: linear-gradient(rgba(0, 10, 0, 0.60), rgba(0, 10, 0, 0.60)), url("../images/background.jpeg");
+	color: white;
+	letter-spacing: 0.5px;
+}
+
+.banner .content h2{
+	width: 300px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.banner .content p{
+	width: 330px;
+	font-size: 10.5px;
+	padding-top: 10px;
+	padding-left: 20px;
+	line-height: 15px;
+}
+
+.banner .order{
+	/*border: 1px solid black;*/
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #125C50;
+	text-align: center;
+}
+
+.banner .order a{
+	font-size: 10px;
+	font-weight: bolder;
+	position: relative;
+	top: 8px;
+	color: white;
+	text-decoration: none;	
+}
+
+.bottom{
+/*	border: 1px solid black;*/
+	height: 120px;
+	padding-top: 35px;
+	padding-left: 25px;
+}
+
+.bottom h4{
+	padding-bottom: 10px;
+}
+
+.bottom p{
+	font-size: 12px;
+	padding-bottom: 15px;
+	letter-spacing: 0.5px;
+}
+
+.bottom a{
+	border-bottom: 3px solid #125C50;
+	text-decoration: none;
+	font-size: 10.5px;
+	color: black;
+}
+
+.bottom span{
+	font-size: 10.5px;
+}
+
+.footer{
+/*	border: 1px solid black;*/
+	height: 90px;
+	background-color: #125C50;
+	color: white;
+	text-align: center;
+}
+
+.footer p{
+	padding-top: 35px;
+	font-size: 10px;
+	font-weight: bolder;
+	letter-spacing: 0.5px;
+}
+
+/*ABOUT*/
+.tank{
+	/*border: 1px solid black;*/
+	position: absolute;
+	height: 603px;
+	width: 1280px;
+}
+
+.body{
+	/*border: 1px solid black;*/
+	border-top: 1px solid black;
+	height: 429px;
+	padding-left: 25px;
+}
+
+.body h3{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color: #125C50;
+}
+
+.body p{
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	padding-bottom: 20px;
+	line-height: 20px;
+	width: 1200px;
+}
+
+.body p span{
+	text-transform: uppercase;
+	color: #1D9782;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.body h4{
+	color: #1D9782;
+	padding-bottom: 10px;
+}
+
+/*ORDER*/
+.can{
+	/*border: 1px solid black;*/
+	position: absolute;
+	height: 750px;
+	width: 1261.7px;
+}
+
+.form{
+	height: 509px;
+	padding-left: 25px;
+}
+
+.form h5{
+	padding-top: 40px;
+	color: #125C50;
+}
+
+form {
+	font-size: 12px;
+	color: #1D9782;
+	letter-spacing: 0.5px;
+}
+
+.form p{
+	padding-bottom: 10px;
+}
+
+form input{
+	margin-left: 100px;
+	margin-bottom: 5px;
+	width: 900px;
+	height: 23px;
+	border-radius: 5px;
+	background-color: #c4c4c4;
+	border: none;
+}
+
+form select{
+	margin-left: 100px;
+	width: 900px;
+	height: 23px;
+	border-radius: 5px;
+	background-color: #c4c4c4;
+	border: none;
+}
+
+form .product{
+	margin-left: 140px;
+}
+
+form .priority{
+	margin-left: 144px;
+}
+
+.form .qty{
+	line-height: 1px;
+	width: 500px;
+	height: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form .qty span {
+	color: black;
+	font-size: 8px;
+}
+
+form .qty-in{
+	position: relative;
+	bottom: 15px;
+	margin-left: 190px;
+}
+
+form .location{
+	margin-left: 136px;
+}
+
+form .person{
+	margin-left: 96px;
+}
+
+form .describe{
+	margin-left: 119px;
+	height: 43px;
+}
+
+.form .submit{
+	background-color: #1D9782;
+	width: 300px;
+	height: 40px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	padding-right: 20px;
+	margin-left: 190px;
+}
+
+/*STATEMENTS*/
+.main{
+	/*border: 1px solid black;*/
+	position: absolute;
+	height: 740px;
+	width: 1263px;
+}
+
+.main h2{
+	padding-top: 40px;
+	color: #125C50;
+}
+
+.main p{
+	color: #1D9782;
+}
+
+.main-body{
+	border-top: 1px solid black;
+	height: 568px;
+	padding-left: 25px;
+}
+
+.main-body h4{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color: #125C50;
+}
+
+.main-body p{
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	padding-bottom: 20px;
+	line-height: 20px;
+	width: 1200px;
+}
+
+/*CONTACT US*/
+.information{
+	/*border: 1px solid black;*/
+	position: absolute;
+	height: 1000px;
+	width: 1261px;
+}
+
+.main-info{
+	border-top: 1px solid black;
+	height: 830px;
+	padding-left: 25px;
+}
+
+.main-info h2{
+	padding-top: 40px;
+	color: #125C50;
+}
+
+.main-info h4{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color: #125C50;
+}
+
+.main-info p{
+	color: #1D9782;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	padding-bottom: 20px;
+	line-height: 1px;
+	width: 1200px;
+}
+
+.main-info .form{
+	/*border: 1px solid black;*/
+	height: 382px;
+	width: 1180px;
+	background-color: #c4c4c4;
+	margin-top: 10px;
+}
+
+.main-info .form ul li{
+	list-style-type: none;
+}
+
+.main-info .form li b{
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 40px;
+	position: relative;
+	top: 10px;
+}
+
+.main-info .form li p{
+	color: black;
+	margin-left: 80px;
+	padding-top: 5px;
+	position: relative;
+	top: 30px;
+}
+
+.main-info .form span{
+	position: relative;
+	right: 10px;
+}
+
+.main-info .form strong{
+	font-weight: normal;
+	position: relative;
+	right: 18px;
+}
+
+.main-info .form input{
+	position: relative;
+	left: 170px;
+	top: 5px;
+	width: 230px;
+	height: 25px;
+	border: none;
+	background-color: whitesmoke;
+}
+
+.main-info .form .message{
+	height: 85px;
+	top: 3px;
+}
+
+.main-info .form button{
+	margin-left: 170px;
+	position: relative;
+	top: 40px;
+	width: 230px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: whitesmoke;
+}
